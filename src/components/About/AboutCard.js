@@ -11,10 +11,10 @@ function AboutCard() {
             Hi everyone, I am from <span className="purple"> Poland, Koszalin.</span>
             <br />
             <br />
-            I can keep in touch for jobs with anyone as a freelancer.
+            I can keep in touch for jobs with anyone as a <span className="purple">freelancer</span>.
             <br />
             <br />
-            I've been developing many projects as a full stack dev.
+            I've been developing many projects as a <span className="purple">full stack dev</span>.
             <br />
             <br />
             Also as a web3 dev, I jumped in <span className="purple">Blockchain</span> since 2020.

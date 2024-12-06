@@ -1,12 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
+// import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
-import Toolstack from "./Toolstack";
-
+import laptopImg from "../../Assets/about.jpg";
+// import Toolstack from "./Toolstack";
 function About() {
   return (
     <Container fluid className="about-section">
@@ -35,17 +34,17 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          <strong className="purple"> Skillset </strong>
+          <strong className="purple"> Skillset(50%) </strong>
         </h1>
 
         <Techstack />
 
-        <h1 className="project-heading">
+        {/* <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack />
+        </h1> */}
+        {/* <Toolstack /> */}
 
-        <Github />
+        {/* <Github /> */}
       </Container>
     </Container>
   );

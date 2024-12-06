@@ -4,8 +4,6 @@ import myImg from "../../Assets/avatar.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -16,27 +14,20 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              <span style={{ marginLeft: "-5em"}} className="purple"> Brief Introduction </span>
             </h1>
             <p className="home-about-body">
               I got Bachelor's degree in <b className="purple"> Computer Science </b> in 2017.… 🤷‍♂️
               <br />
               <br />I am Software Engineer and <b className="purple"> Full Stack </b> @ <b className="purple">Web3</b> developer.
               <br />
-              <br />
+              
+              My dream is to develop one of the most perfect &nbsp;
               <i>
-                My top skills are <b className="purple">Solidity, Golang, Python</b>, MERN Stack, Vue.js, Nuxt.js, AngularJS, Next.js, Nest.js… 🤷‍♂️
+                <b className="purple">Websites</b> and <br /><b className="purple">IT Products</b>  in the world{" "}
               </i>
               <br />
               <br />
-              My dream are developing one of the most perfect &nbsp;
-              <i>
-                <b className="purple">Websites</b> and <b className="purple">IT Products</b>  in the world{" "}
-              </i>
-              <br />
-              <br />
-              Whenever possible, I'll present <b className="purple">new framework</b>
-              so I will contribute to making it easier for developers to develop projects than it is now.
             </p>
             {/* <Container className="text-align: center"> */}
             <div className="d-flex flex-row"> 
