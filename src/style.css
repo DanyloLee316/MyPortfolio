@@ -33,7 +33,7 @@ button:focus {
   height: 100%;
   z-index: 999999;
   background-color: #0c0513;
-  background-image: url(./Assets/pre.svg);
+  background-image: url(./Assets/RotatingRings.gif);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -155,8 +155,8 @@ button:focus {
 }
 
 .logo {
-  height: 4em !important;
-  width: 8em !important;
+  height: 3em !important;
+  width: 6em !important;
 }
 
 .navbar-nav .nav-link {
@@ -332,7 +332,7 @@ button:focus {
 
 .home-about-body {
   padding-top: 50px;
-  font-size: 1.2em !important;
+  font-size: 1.5em !important;
   text-align: left;
 }
 

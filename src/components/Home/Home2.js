@@ -1,11 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -16,43 +14,27 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              <span style={{ marginLeft: "-5em"}} className="purple"> Brief Introduction </span>
             </h1>
             <p className="home-about-body">
-              I received my Bachelor's degree in Computer Science in 2017.… 🤷‍♂️
+              I got Bachelor's degree in <b className="purple"> Computer Science </b> in 2017.… 🤷‍♂️
               <br />
-              <br />I am senior Front End Engineer and my top skills are
+              <br />I am Software Engineer and <b className="purple"> Full Stack </b> @ <b className="purple">Web3</b> developer.
+              <br />
+              
+              My dream is to develop one of the most perfect &nbsp;
               <i>
-                <b className="purple"> MERN Stack, Vue.js, Nuxt.js, AngularJS, Next.js, Nest.js</b>… 🤷‍♂️
+                <b className="purple">Websites</b> and <br /><b className="purple">IT Products</b>  in the world{" "}
               </i>
               <br />
               <br />
-              My dream are developing one of the most perfect &nbsp;
-              <i>
-                <b className="purple">websites and IT Products </b> all over the world{" "}
-              </i>
-              <br />
-              <br />
-              Whenever possible, I'll present <b className="purple">Front End framework</b>
-              so I will contribute to making it easier for Front End developers to develop projects than it is now.
             </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
-            <ul className="home-about-social-links">
+            {/* <Container className="text-align: center"> */}
+            <div className="d-flex flex-row"> 
+              <h3>Github Connect&nbsp;</h3>
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/DanyloLee316" 
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -60,39 +42,19 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-            </ul>
+              <h3>&nbsp;&nbsp;Email address :&nbsp;&nbsp;<span className="purple">danylo.lee316@gmail.com</span></h3>
+
+            </div>
+            
           </Col>
+          <Col md={4} className="myAvtar">
+            <Tilt>
+              <img src={myImg} className="img-fluid" alt="avatar" />
+            </Tilt>
+          </Col>
+          
         </Row>
+        
       </Container>
     </Container>
   );
