@@ -7,34 +7,24 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Danylo Lee </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+          <h4 style={{ textAlign: "justify" }}>
+            Hi everyone, I am from <span className="purple"> Poland, Koszalin.</span>
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Danylo</footer>
+            I can keep in touch for jobs with anyone as a freelancer.
+            <br />
+            <br />
+            I've been developing many projects as a full stack dev.
+            <br />
+            <br />
+            Also as a web3 dev, I jumped in <span className="purple">Blockchain</span> since 2020.
+            <br />
+            <br />
+            I've been also following <span className="purple">AI</span> Technology.
+            <br/>
+            <br/>
+            <span className="purple">-------------&nbsp;Danylo Lee&nbsp;--------------</span>
+          </h4>
         </blockquote>
       </Card.Body>
     </Card>
